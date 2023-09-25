@@ -15,7 +15,17 @@ const glossary = [
     { id: 8, term: 'GitHub', definition: 'A web-based platform for version control and collaboration that uses Git.',reference: 'https://docs.github.com/en/get-started/quickstart/hello-world' },
     { id: 9, term: 'Bitbucket', definition: 'A web-based platform for version control and collaboration that supports both Git and Mercurial.', reference: 'https://bitbucket.org/product/guides/getting-started/overview#a-brief-overview-of-bitbucket' },
     { id: 10, term: 'Containerization', definition: 'The practice of packaging an application and its dependencies together in a container for consistent deployment.',reference: 'https://aws.amazon.com/what-is/containerization/' },
-];
+    { id: 11, term: 'Docker', definition: 'A popular containerization platform that allows you to package and run applications in containers.',reference: 'https://docs.docker.com/get-started/overview/' },
+    { id: 12, term: 'Kubernetes', definition: 'An open-source container orchestration platform for automating deployment, scaling, and management of containerized applications.',reference: 'https://kubernetes.io/docs/concepts/overview/' },
+    { id: 13, term: 'Infrastructure as Code (IaC)', definition: 'The practice of managing and provisioning infrastructure using code and automation tools.',reference: 'https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac' },
+    { id: 14, term: 'REST', definition: 'Representational State Transfer, an architectural style for designing networked applications.', reference: 'https://www.codecademy.com/article/what-is-rest' },
+    { id: 15, term: 'Microservices', definition: 'An architectural style where an application is composed of loosely coupled, independently deployable services.',reference: 'https://aws.amazon.com/microservices/' },
+    { id: 16, term: 'API', definition: 'Application Programming Interface, a set of rules and protocols that allows different software applications to communicate with each other.',reference: 'https://aws.amazon.com/what-is/api/' },
+    { id: 17, term: 'Cloud Computing', definition: 'The delivery of computing services, including servers, storage, databases, networking, and more, over the internet.',reference: 'https://aws.amazon.com/what-is-cloud-computing/' },
+    { id: 18, term: 'AWS', definition: 'Amazon Web Services, a popular cloud computing platform offering a wide range of services.',reference: 'https://aws.amazon.com/what-is-aws/' },
+    { id: 19, term: 'Azure', definition: 'Microsoft Azure, a cloud computing platform and infrastructure created by Microsoft.',reference: 'https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/what-is-azure/' },
+    { id: 20, term: 'Google Cloud', definition: 'Google Cloud Platform (GCP), a suite of cloud computing services offered by Google.',reference: 'https://cloud.google.com/docs/overview' },
+    ];
 
 app.get('/', (req, res) => {
   res.render('index', { glossary });
