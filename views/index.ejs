@@ -2,22 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>DevOps Glossary</title>
+    <title>Express with EJS</title>
+    <style>
+        /* Style the table */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ccc;
+        }
+
+        /* Style table headers */
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+
+        /* Style table rows */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Style table cells */
+        td, th {
+            padding: 12px;
+            border: 1px solid #ccc;
+        }
+    </style>
 </head>
 <body>
-    <h1>DevOps Glossary</h1>
     <table>
         <thead>
             <tr>
+                <th>ID</th>
                 <th>Term</th>
                 <th>Definition</th>
+                <th>Reference</th>
             </tr>
         </thead>
         <tbody>
             <% glossary.forEach(item => { %>
                 <tr>
+                    <td><%= item.id %></td>
                     <td><%= item.term %></td>
                     <td><%= item.definition %></td>
+                    <td><%= item.reference %></td>
                 </tr>
             <% }); %>
         </tbody>
