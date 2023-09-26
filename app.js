@@ -43,8 +43,8 @@ const glossary = [
     { id: 36, term: 'Load Testing', definition: 'A type of performance testing that assesses a system ability to handle a specific load or level of concurrent users.',reference: 'Thomas Hamilton, August 12 2023, https://www.guru99.com/load-testing-tutorial.html' },
     { id: 37, term: 'API Gateway', definition: 'A server that acts as an API front-end, receiving API requests, enforcing throttling and security policies, passing requests to the back-end service, and passing back the response.',reference: '"Amazon Web Services", 2023, https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html' },
     { id: 38, term: 'Encryption', definition: 'The process of converting data into a code to prevent unauthorized access or tampering.',reference: '"CloudFair, 2023, https://www.cloudflare.com/learning/ssl/what-is-encryption/' },
-    { id: 39, term: 'Root Cause Analysis', definition: 'A problem-solving technique used to identify the underlying cause of an issue or incident.',reference: 'MAX REHKOPF, "Wikipedia Contributors, https://en.wikipedia.org/wiki/Root_cause_analysis' },
-    { id: 40, term: 'GitLab', definition: 'A web-based platform that provides source code management, continuous integration, and more, using Git.',reference: 'MAX REHKOPF, "Simplilearn", Karin Kelley, Jan 16, 2023, https://www.simplilearn.com/tutorials/git-tutorial/what-is-gitlab' },
+    { id: 39, term: 'Root Cause Analysis', definition: 'A problem-solving technique used to identify the underlying cause of an issue or incident.',reference: '"Wikipedia Contributors, https://en.wikipedia.org/wiki/Root_cause_analysis' },
+    { id: 40, term: 'GitLab', definition: 'A web-based platform that provides source code management, continuous integration, and more, using Git.',reference: '"Simplilearn", Karin Kelley, Jan 16, 2023, https://www.simplilearn.com/tutorials/git-tutorial/what-is-gitlab' },
     
   ];
 
