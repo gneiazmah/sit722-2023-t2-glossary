@@ -35,7 +35,18 @@ const glossary = [
     { id: 28, term: 'SSL/TLS', definition: 'Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols used to secure internet communication.' ,reference: '"DigiCert", 2023, https://www.digicert.com/what-is-ssl-tls-and-https'},
     { id: 29, term: 'Agile Manifesto', definition: 'A set of guiding values and principles for Agile software development, emphasizing individuals and interactions over processes and tools.',reference: 'Paul KirvanMary, K. Pratt, "TechTarget", 2023, https://www.techtarget.com/searchcio/definition/Agile-Manifesto' },
     { id: 30, term: 'User Story', definition: 'A brief description of a software feature from an end user perspective, typically used in Agile development.',reference: 'MAX REHKOPF, "Atlassian", 2023, https://www.atlassian.com/agile/project-management/user-stories' },
-    ];
+    { id: 31, term: 'Backlog', definition: 'A list of prioritized work items, often used in Agile project management.',reference: 'DAN RADIGAN, "Atlassian", 2023, https://www.atlassian.com/agile/scrum/backlogs' },
+    { id: 32, term: 'Sprint', definition: 'A time-boxed development cycle in Scrum, typically two to four weeks long.',reference: 'Vicki-Lynn Brunskill, "TechTarget", 2023, https://www.techtarget.com/searchsoftwarequality/definition/Scrum-sprint' },
+    { id: 33, term: 'MVP', definition: 'Minimum Viable Product, a version of a new product with the minimum features required to satisfy early customers and collect feedback.',reference: '"ProductPlan", 2023, https://www.productplan.com/glossary/minimum-viable-product/' },
+    { id: 34, term: 'Dependency Injection', definition: 'A technique in which an object receives its dependencies from an external source rather than creating them itself.',reference: 'Wikipedia Contributors, https://en.wikipedia.org/wiki/Dependency_injection' },
+    { id: 35, term: 'Mocking', definition: 'The practice of creating fake objects or components in software testing to simulate real objects and test interactions.',reference: 'Wikipedia Contributors, Mock Object, https://en.wikipedia.org/wiki/Mock_object' },
+    { id: 36, term: 'Load Testing', definition: 'A type of performance testing that assesses a system ability to handle a specific load or level of concurrent users.',reference: 'Thomas Hamilton, August 12 2023, https://www.guru99.com/load-testing-tutorial.html' },
+    { id: 37, term: 'API Gateway', definition: 'A server that acts as an API front-end, receiving API requests, enforcing throttling and security policies, passing requests to the back-end service, and passing back the response.',reference: '"Amazon Web Services", 2023, https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html' },
+    { id: 38, term: 'Encryption', definition: 'The process of converting data into a code to prevent unauthorized access or tampering.',reference: '"CloudFair, 2023, https://www.cloudflare.com/learning/ssl/what-is-encryption/' },
+    { id: 39, term: 'Root Cause Analysis', definition: 'A problem-solving technique used to identify the underlying cause of an issue or incident.',reference: 'MAX REHKOPF, "Wikipedia Contributors, https://en.wikipedia.org/wiki/Root_cause_analysis' },
+    { id: 40, term: 'GitLab', definition: 'A web-based platform that provides source code management, continuous integration, and more, using Git.',reference: 'MAX REHKOPF, "Simplilearn", Karin Kelley, Jan 16, 2023, https://www.simplilearn.com/tutorials/git-tutorial/what-is-gitlab' },
+    
+  ];
 
 app.get('/', (req, res) => {
   res.render('index', { glossary });
